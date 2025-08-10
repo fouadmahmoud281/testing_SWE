@@ -17,7 +17,7 @@ const Signup = ({ onToggleMode, onSubmit }) => {
   // Email validation regex
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   // Phone number validation regex (optional field)
-  const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
+  const phoneRegex = /^[+]?[1-9][\d]{0,15}$/;
 
   const validateForm = () => {
     const newErrors = {};
@@ -298,3 +298,4 @@ const Signup = ({ onToggleMode, onSubmit }) => {
 };
 
 export default Signup;
+
